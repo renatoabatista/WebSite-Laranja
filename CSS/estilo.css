@@ -1,0 +1,59 @@
+
+
+
+.borda{
+    border: 1px solid red;
+}
+.estilo-menu:hover{
+    margin-bottom: -10px;
+    border-bottom: 4px solid #ff7d04 ;
+}
+.bg-orange{
+    background: #ff7d04;
+}
+.bg-verde{
+    background-color:#105503;
+
+}
+
+/*section a:hover{ 
+    background-color:#e66b07;
+    color:black;
+}*/
+
+section div h2{
+    border-bottom: 4px solid #e66b07;
+}
+.rotacao{
+    transform: rotate(-30deg);
+
+}
+body{
+    overflow-x: hidden;
+}
+footer div h2{
+    border-bottom: 4px solid #e66b07;
+}
+
+.fundo-imagem{
+    background-image: url("../IMG/fundo_historia.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+    section .carousel-control-next{
+        margin-bottom:25px;
+        margin-right:-65px;
+    }
+    section .carousel-control-prev{
+        margin-bottom:25px;
+        margin-left:-50px;
+    }
+    .fundo-contato{
+        background-image: url("../IMG/footer.png");
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 327px;
+    }
